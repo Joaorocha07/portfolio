@@ -1,0 +1,47 @@
+/* Logo.module.css */
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.logo {
+  width: 4rem;
+  height: 4rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bold;
+  transition: background-color 1s linear; /* Transição suave da cor de fundo */
+}
+
+.logo:hover {
+  background-color: #121212; /* Cor inicial ao passar o mouse */
+  animation: changeColor 1.5s infinite; /* Animação de troca de cores */
+}
+
+@keyframes changeColor {
+  0%, 100% {
+    background-color: #121212; /* Cor inicial e final durante a animação */
+  }
+  16.666% {
+    background-color: rgba(131, 58, 180, 1); /* Cor no início da animação */
+  }
+  33.333% {
+    background-color: rgba(253, 29, 29, 1); /* Cor no meio da animação */
+  }
+  50% {
+    background-color: rgba(252, 176, 69, 1); /* Outra cor no meio da animação */
+  }
+  66.666% {
+    background-color: rgba(131, 58, 180, 1); /* Cor no meio da animação */
+  }
+  83.333% {
+    background-color: rgba(253, 29, 29, 1); /* Cor no meio da animação */
+  }
+}
