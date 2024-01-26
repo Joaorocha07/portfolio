@@ -45,3 +45,19 @@
     background-color: rgba(253, 29, 29, 1); /* Cor no meio da animação */
   }
 }
+
+a.twitter_link {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  transition: transform 0.2s ease-in-out;
+}
+
+a.twitter_link:hover {
+  transform: translateY(-2px);
+}
+
+a.twitter_link:active {
+  transform: scale(0.9);
+}
+

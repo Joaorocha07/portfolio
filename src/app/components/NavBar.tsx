@@ -4,6 +4,7 @@ import Link from 'next/link'
 import React from 'react'
 import Logo from './Logo'
 import { type CustomLinkProps } from '@/types/logo'
+import LinksIcons from './LinksIcons'
 
 const CustomLink = ({
   href,
@@ -46,13 +47,8 @@ const NavBar = (): JSX.Element => {
         <CustomLink href="/artigos" title="Artigos" className='ml-4' />
       </nav>
 
-      <nav>
-        <Link href="/" target={'_blank'}>T</Link>
-        <Link href="/" target={'_blank'}>T</Link>
-        <Link href="/" target={'_blank'}>T</Link>
-        <Link href="/" target={'_blank'}>T</Link>
-        <Link href="/" target={'_blank'}>T</Link>
-        <Link href="/" target={'_blank'}>T</Link>
+      <nav className='flex items-center justify-center flex-wrap'>
+        <LinksIcons />
       </nav>
 
       <div className='absolute left-[50%] top-2 translate-x-[-50%]'>
