@@ -3,7 +3,7 @@
 import Link from 'next/link'
 import React from 'react'
 import Logo from './Logo'
-import { type CustomLinkProps } from '@/types/logo'
+import { type CustomLinkProps } from '@/types/Home/logo'
 import LinksIcons from './LinksIcons'
 
 const CustomLink = ({

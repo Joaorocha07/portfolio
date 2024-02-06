@@ -1,0 +1,30 @@
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+h1 {
+  opacity: 0; /* Certifique-se de começar com a opacidade em 0 */
+  animation: fadeIn 0.5s ease-out 0.5s forwards;
+}
+
+/* Adicione qualquer estilo adicional conforme necessário */
+h1 {
+  display: inline-block;
+  width: 100%;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 8rem;
+  color: #333; /* Substitua pela cor desejada */
+  /* Adicione outras propriedades de estilo conforme necessário */
+}
+
+/* Adicione este estilo para espaçamento entre palavras */
+h1 span {
+  display: inline-block;
+  white-space: pre;
+}

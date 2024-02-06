@@ -23,7 +23,7 @@ export default function LinksIcons (): JSX.Element {
         href="https://twitter.com"
         target={'_blank'}
         rel="noreferrer"
-        className={`${styles.twitter_link} w-6 mr-3`}
+        className={`${styles.twitter_link} w-6 mx-3`}
       >
         <GithubIcon />
       </Link>
@@ -31,7 +31,7 @@ export default function LinksIcons (): JSX.Element {
         href="https://twitter.com"
         target={'_blank'}
         rel="noreferrer"
-        className={`${styles.twitter_link} w-6 mr-3`}
+        className={`${styles.twitter_link} w-6 mx-3`}
       >
         <LinkedInIcon />
       </Link>
@@ -39,7 +39,7 @@ export default function LinksIcons (): JSX.Element {
         href="https://twitter.com"
         target={'_blank'}
         rel="noreferrer"
-        className={`${styles.twitter_link} w-6 mr-3`}
+        className={`${styles.twitter_link} w-6 mx-3`}
       >
         <PinterestIcon />
       </Link>
@@ -47,7 +47,7 @@ export default function LinksIcons (): JSX.Element {
         href="https://twitter.com"
         target={'_blank'}
         rel="noreferrer"
-        className={`${styles.twitter_link} w-6 mr-3`}
+        className={`${styles.twitter_link} w-6 ml-3`}
       >
         <DribbbleIcon />
       </Link>
